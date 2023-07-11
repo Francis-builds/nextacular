@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="relative flex flex-col px-10 mx-auto space-y-5 md:w-3/4">
         <header className="flex items-center justify-between space-x-3">
           <Link href="/" className="text-2xl font-bold">
-            Nextacular
+            SpeechProjects
           </Link>
           <button className="md:hidden" onClick={toggleMenu}>
             {!showMenu ? (
@@ -32,7 +32,7 @@ const Hero = () => {
             ].join(' ')}
           >
             <nav className="flex flex-col w-full space-x-0 space-y-3 text-center md:space-y-0 md:space-x-3 md:flex-row">
-              <a className="px-5 py-2 rounded hover:bg-gray-100">Guides</a>
+              <a className="px-5 py-2 rounded hover:bg-gray-100" href="#guides">Guides</a>
               <a className="px-5 py-2 rounded hover:bg-gray-100">Pricing</a>
               <a className="px-5 py-2 rounded hover:bg-gray-100">Blog</a>
             </nav>
@@ -47,20 +47,22 @@ const Hero = () => {
           </div>
         </header>
         <div className="flex flex-col items-center justify-center pt-10 mx-auto md:w-3/5">
+          <div class="absolute top-50 left-120 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+          <div class="absolute top-50 right-80 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+          <div class="absolute top-50 left-80 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
           <h1 className="text-6xl font-extrabold text-center">
-            <span className="block">Build SaaS platforms</span>
+            <span className="block">Tap into your audio knowledge </span>
             <span className="block text-blue-600">like never before</span>
           </h1>
           <p className="mt-5 text-center text-gray-600">
-            Quickly build landing pages that will help you get results fast
-          </p>
+            Unlock the full potential of your audio knowledge with our AI transcription, in a single API call.</p>
         </div>
         <div className="flex items-center justify-center space-x-5">
           <a className="px-10 py-3 text-center text-white bg-blue-600 rounded shadow hover:bg-blue-500">
-            Get Started
+            Book a demo
           </a>
           <a className="px-10 py-3 text-center text-blue-600 rounded shadow hover:bg-blue-50">
-            Live Demo
+            Start Now
           </a>
         </div>
       </div>

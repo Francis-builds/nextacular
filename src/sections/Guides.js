@@ -7,39 +7,45 @@ const Guides = () => {
             Guides
           </h6>
           <h2 className="text-4xl font-bold text-center">
-            <span className="block">Supercharge your website</span>
+            <span className="block">Hit the ground running with our guides</span>
           </h2>
           <p className="text-center text-gray-600">
-            Lorem ipsum dolor sit amet
+            From zero to transcription hero. Start analyzing your data now.
           </p>
         </div>
         <div className="grid grid-cols-1 gap-10 py-10 md:grid-cols-3">
           <div className="p-5 space-y-5 transition rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-2">
             <div className="w-full h-40 bg-gray-400 rounded-lg animate-pulse" />
-            <div>
-              <h3 className="text-lg font-bold text-gray-400">
-                Getting Started
-              </h3>
-              <h2 className="text-2xl font-bold">
-                Using Notion to build your site
-              </h2>
-            </div>
+            <a href="#!">
+              <div>
+                <h3 className="text-lg font-bold text-gray-400">
+                  Getting Started
+                </h3>
+                <h2 className="text-2xl font-bold">
+                  Create your User and API Key in less than 60s
+                </h2>
+              </div>
+            </a>
           </div>
           <div className="p-5 space-y-5 transition rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-2">
             <div className="w-full h-40 bg-gray-400 rounded-lg animate-pulse" />
-            <div>
-              <h3 className="text-lg font-bold text-gray-400">SEO</h3>
-              <h2 className="text-2xl font-bold">
-                Improve SEO and discoverability of your site
-              </h2>
-            </div>
+            <a href="#!">
+              <div>
+                <h3 className="text-lg font-bold text-gray-400">Getting Started</h3>
+                <h2 className="text-2xl font-bold">
+                  Bring your tech stack: Use our API in TypeScript, JavaScript, Python and more
+                </h2>
+              </div>
+            </a>
           </div>
           <div className="p-5 space-y-5 transition rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-2">
             <div className="w-full h-40 bg-gray-400 rounded-lg animate-pulse" />
-            <div>
-              <h3 className="text-lg font-bold text-gray-400">Themes</h3>
-              <h2 className="text-2xl font-bold">Customize your site</h2>
-            </div>
+            <a href="#¡">
+              <div>
+                <h3 className="text-lg font-bold text-gray-400">Advanced Guides</h3>
+                <h2 className="text-2xl font-bold">How Speaker Diarization works</h2>
+              </div>
+            </a>
           </div>
         </div>
       </div>
